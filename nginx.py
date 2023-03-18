@@ -9,7 +9,7 @@ from huaweicloudsdkcore.auth.credentials import BasicCredentials
 from huaweicloudsdkfunctiongraph.v2 import FunctionGraphClient, InvokeFunctionRequest, InvokeFunctionResponse
 from huaweicloudsdkfunctiongraph.v2.region.functiongraph_region import FunctionGraphRegion
 
-from config import FunctionGraphConfig
+from config import FunctionGraphConfig, FlaskConfig
 
 app = Flask(__name__)
 
@@ -45,7 +45,7 @@ def fgs(body):
 
 
 def start_nginx():
-    app.run("0.0.0.0", 5235, debug=True)
+    app.run("0.0.0.0", FlaskConfig.port, debug=FlaskConfig.debug)
 
 
 if __name__ == "__main__":
