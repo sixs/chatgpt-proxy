@@ -1,7 +1,7 @@
 # chatgpt
 ​		
 
-​		chatgpt开放api国内无法访问？没有梯子可以代理？本项目借用华为云香港或海外局点的FunctionGraph云服务搭建中转访问chatgpt api。
+​		chatgpt开放api国内无法访问？没有梯子可以代理？本项目借用华为云香港或海外局点的FunctionGraph云服务搭建代理访问chatgpt api，每月免费调用100万次。
 
 
 
